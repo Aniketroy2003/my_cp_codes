@@ -1,0 +1,12 @@
+#code in python
+
+current_rating = int(input())
+order_rate = [1200,1400,1600,1900,2100,2300,2400,2600,3000]
+new_list = [a for a in order_rate if a > current_rating]
+print(new_list[0])
+
+
+
+#output
+#1234  --user input
+#1400  --output
